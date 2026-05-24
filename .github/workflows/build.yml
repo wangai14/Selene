@@ -26,7 +26,7 @@ jobs:
 
           - name: macos_ios
             os: macos-latest
-            build-args: "--apple-only"
+            build-args: "--apple-only --sequential"
 
           - name: windows-amd64
             os: windows-latest
